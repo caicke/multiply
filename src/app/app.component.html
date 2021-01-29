@@ -1,13 +1,11 @@
-<style></style>
-
-<div>
-  <h2>{{title}}</h2>
+<h1>{{title}}</h1>
+<div class="container">
   <input type="number" name="num1" [(ngModel)]="num1" required />
   *
   <input type="number" name="num2" [(ngModel)]="num2" required />
   <br />
   <button type="submit" (click)="multiply()">Multiplicar</button>
 
-  <p>Resultado: {{num3}}</p>
+  <p>Resultado: <span>{{num3}}</span></p>
 </div>
 <router-outlet></router-outlet>

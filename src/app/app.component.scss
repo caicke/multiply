@@ -1,0 +1,44 @@
+$form: #1d2b85;
+$buttonColor: #4156df;
+
+.container {
+  border-radius: 4px;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color: $form;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+input {
+  border-radius: 4px;
+  text-align: center;
+  width: 50px;
+  font-size: 14px;
+  padding: 0px 0px 0px 10px;
+  color: white;
+  height: 30px;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 4px;
+  height: 40px;
+  width: auto;
+  margin: 10px;
+  background: $buttonColor;
+  color: white;
+}
+
+span {
+  color: rgb(240, 227, 116);
+}
+
+p {
+  font-size: 20px;
+}
